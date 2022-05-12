@@ -62,7 +62,7 @@ namespace Squirrel2
             db.InsertPerson(IDInt,firstNameInsText.Text, lastNameInsText.Text, ageInt);
             firstNameInsText.Text = "";
             lastNameInsText.Text = "";
-            ageInsText.Text = "";
+            ageInsText.Text = "TestIfWOrks";
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
